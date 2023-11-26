@@ -33,7 +33,7 @@ int main() {
     for (int i = N - 1; i >= 0; i--) {
         for (int j = i - 1; j >= 0; j--) {
             if (A[i] == A[j]) {
-                for (int k = i; k < N - 1; k++) {
+                for (int k = j; k < N - 1; k++) {
                     A[k] = A[k + 1];
                 }
                 N--;
