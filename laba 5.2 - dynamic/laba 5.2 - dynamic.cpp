@@ -43,7 +43,7 @@ int main() {
     }
 
     cout << "Массив без дубликатов: ";
-    for (int i = 0; i < N; ++i) {
+    for (int i = 0; i < N; i++) {
         cout << A[i] << " ";
     }
 
